@@ -13,7 +13,6 @@ class HabitsController extends AbstractController
     public function __construct()
     {
         $this->HabitRepository = new HabitRepository();
-        $this->HabitLogRepository = new HabitLogRepository();
         
     }
     
