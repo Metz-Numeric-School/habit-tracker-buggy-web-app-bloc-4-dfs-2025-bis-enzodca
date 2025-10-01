@@ -19,11 +19,15 @@ password_verify($password, $user->getPassword())
 ```
 ![alt text](image-8.png)
 * Des injections de type XSS ont été détéctées sur certains formulaires
-
+```
+il manque des htmlspecialchars dans les formulaires concerné pour éviter cela
+```
 * On nous a signalé des injections SQL lors de la création d'une nouvelles habitudes
   * exemple dans le champs "name" : foo', 'INJECTED-DESC', NOW()); --
-
-
+```
+Exploitation : En insérant une clause comme ' or '1'='1, un attaquant peut contourner l’authentification
+Correction : Échapper les valeurs insérées dans la requête XPath avec concat() ou validation stricte
+```
 ## BUGS
 
 * Une 404 est détéctée lors de l'accès à l'URL ``/habit/toggle``
