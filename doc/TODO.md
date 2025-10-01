@@ -16,3 +16,6 @@ Suite à un audit effectué en amont, voici les failles et les bugs qui ont ét�
 * Fatal error: Uncaught Error: Class "App\Controller\Api\HabitsController" lorsque l'on accède à l'URL  ``/api/habits``
 
 **ATTENTION : certains bugs n'ont pas été listé**
+
+bug lors de la création d'un user identiques
+
