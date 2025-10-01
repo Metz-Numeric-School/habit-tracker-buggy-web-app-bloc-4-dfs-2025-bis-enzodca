@@ -62,3 +62,5 @@ une fois ceci fait j'ai exporté les données et les tables de la base créer en
 
 pour avoir acces au site via le domaine
 ![alt text](image-2.png)
+
+user créé par default : ![alt text](image-7.png)
