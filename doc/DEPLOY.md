@@ -42,6 +42,7 @@ on ajoute ensuite la db dans l'onglet databases, j'ai du choisir comme username 
 on ajoute ensuite le .env a l'endroit ou il faut en le remplisant avec les bonnes info de la db créé avant
 
 ![alt text](image-1.png)
+![alt text](image-3.png)
 
 une fois ceci fait j'ai exporté les donnes et les tables de la base créer en local via 'php bin/create-database'
 et importé dans celle créé sur aaPanel
