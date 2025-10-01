@@ -50,4 +50,6 @@ changement de DB_USERNAME="root"par user car probleme de conflit de nom avec roo
 
 il n'y avait pas de page de gestion des habitudes pour les admins
 
+bug lors de la redirection de page apres la création d'un compte changer le chemin vers le dashboard du user plutot que ticket
+
 ```
