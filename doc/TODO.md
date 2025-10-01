@@ -14,6 +14,14 @@ manques des guards sur les routes pour gérer les acces au rôles
 ## BUGS
 
 * Une 404 est détéctée lors de l'accès à l'URL ``/habit/toggle``
+fix: ajouter la routes dans routes.json 
+    {
+        "path": "/habit/toggle",
+        "controller": "App\\Controller\\Member\\HabitsController",
+        "action": "toggle"
+    },
+
+
 * Fatal error: Uncaught Error: Class "App\Controller\Api\HabitsController" lorsque l'on accède à l'URL  ``/api/habits``
 
 **ATTENTION : certains bugs n'ont pas été listé**
