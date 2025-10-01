@@ -7,9 +7,12 @@ Suite à un audit effectué en amont, voici les failles et les bugs qui ont ét�
 * Des utilsateurs non admin ont des accès à l'interface de gestion des utilisateurs
 manques des guards sur les routes pour gérer les acces au rôles
 * Les mots de passes ne sont pas chiffrée en base de données...
+
 * Des injections de type XSS ont été détéctées sur certains formulaires
+
 * On nous a signalé des injections SQL lors de la création d'une nouvelles habitudes
   * exemple dans le champs "name" : foo', 'INJECTED-DESC', NOW()); --
+
 
 ## BUGS
 
@@ -27,4 +30,10 @@ fix: ajouter la routes dans routes.json
 **ATTENTION : certains bugs n'ont pas été listé**
 
 bug lors de la création d'un user identiques
+
+
+changement de DB_USERNAME="root"par user car probleme de conflit de nom avec root sur aapanel
+
+
+il n'y avait pas de page de gestion des habitudes pour les admins
 
