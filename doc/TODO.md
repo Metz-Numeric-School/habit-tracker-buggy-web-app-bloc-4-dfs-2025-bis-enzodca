@@ -16,9 +16,8 @@ $user['password']= password_hash($user['password'],PASSWORD_DEFAULT);
 
 password_verify($password, $user->getPassword())
 
-![alt text](image-8.png)
-
 ```
+![alt text](image-8.png)
 * Des injections de type XSS ont été détéctées sur certains formulaires
 
 * On nous a signalé des injections SQL lors de la création d'une nouvelles habitudes
